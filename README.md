@@ -42,11 +42,19 @@ Aanwezigen:
 ### Gestelde vragen
 
 - Waarom willen jullie dat wij deze opdracht gaan uitvoeren?
-- Wat is de gedachte erachter, wat willen we hiermee bereiken?
+- Wat is de gedachte erachter, wat willen we hiermee bereiken? Welke boodschap moet er overgebracht worden naar bezoekers?
 - Wat moet de inhoud zijn?
 - Is er een huisstijl?
-- Is er een moodboard voor hoe het eruit moet komen te zien
-- Wat zijn de belangrijkste functies die er in moeten komen?
+- Is er een moodboard voor hoe het eruit moet komen te zien?
+- Wat zijn de belangrijkste functies die er in moeten komen? Wat zijn onderdelen die er nu inzitten, die het goed doen en erin moeten - blijven?
+- Wat zijn precies de wensen, wat moeten we gaan ontwerpen?
+- Wat is de primaire doelgroep van de website?
+- Wat willen jullie dat bezoekers doen/bereiken op de website?
+- Zijn er specifieke problemen met de huidige website?
+- Hoe wordt de website nu beheerd?
+- Moet de site ook op mobiel goed werken? Responsive?
+- Wat is voor jullie een fijne manier om te communiceren ?
+- Hoe vaak willen jullie verder updates ontvangen over het proces, naast de feedbackmomenten? Of juist niet?
 
 ## De opdracht
 
