@@ -1,5 +1,7 @@
 # Meesterproef
 
+[Link naar DLO](https://dlo.mijnhva.nl/d2l/le/content/609470/Home)
+
 Leden:
 
 - **Donna**
@@ -45,3 +47,13 @@ Aanwezigen:
 - Is er een huisstijl?
 - Is er een moodboard voor hoe het eruit moet komen te zien
 - Wat zijn de belangrijkste functies die er in moeten komen?
+
+## De opdracht
+
+### Iteratie 1
+
+### Iteratie 2
+
+### Iteratie 3
+
+### Iteratie 4
