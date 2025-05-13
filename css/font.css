@@ -1,7 +1,7 @@
 /* Normal font */
 @font-face {
   font-family: "Nunito";
-  src: local("Nunito"), url("./font/Nunito-VariableFont_wght.ttf") format("truetype");
+  src: local("Nunito"), url("../font/Nunito-VariableFont_wght.ttf") format("truetype");
   font-optical-sizing: auto;
   font-weight: 200 700;
   font-style: normal;
@@ -10,7 +10,7 @@
 /* Head font */
 @font-face {
   font-family: "Fraunces";
-  src: local("Fraunces"), url("./font/Fraunces-VariableFont_wght.ttf") format("truetype");
+  src: local("Fraunces"), url("../font/Fraunces-VariableFont_wght.ttf") format("truetype");
   font-optical-sizing: auto;
   font-weight: 200 700;
   font-style: normal;
