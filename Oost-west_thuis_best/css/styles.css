@@ -1,0 +1,75 @@
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --button-border-radius: 999px;
+    --button-background: hsl(222 36% 50%);
+    --button-color: var(--white);
+
+    /* Font family's */
+    --font-family-nunito: "Nunito", sans-serif;
+    --font-family-fraunces: "Fraunces", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
+    justify-content: center;
+    min-height: 100dvh;
+    font-family: var(--font-family-nunito);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-family-fraunces);
+    color: hsl(222 36% 30%);
+}
+
+a {
+    color: hsl(355 64% 40%);
+}
+
+button, a.button {
+    background-color: var(--button-background);
+    color: var(--button-color);
+    border-radius: var(--button-border-radius);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+    @media screen and (min-width: 992px) {
+        padding: 0;
+    }
+}
+
+body {
+    header {
+        background-color: var(--white);
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    }
+
+    main {}
+
+    footer {
+        background-color: hsl(222 36% 80%);
+
+        .footerBottom {
+            text-align: center;
+        }
+    }
+}

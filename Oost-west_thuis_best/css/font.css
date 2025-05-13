@@ -1,0 +1,20 @@
+/* Normal font */
+@font-face {
+  font-family: "Nunito";
+  src: local("Nunito"), url("/Oost-west_thuis_best/font/Nunito-VariableFont_wght.ttf") format("truetype");
+  font-optical-sizing: auto;
+  font-weight: 200 700;
+  font-style: normal;
+}
+
+/* Head font */
+@font-face {
+  font-family: "Fraunces";
+  src: local("Fraunces"), url("/Oost-west_thuis_best/font/Fraunces-VariableFont_wght.ttf") format("truetype");
+  font-optical-sizing: auto;
+  font-weight: 200 700;
+  font-style: normal;
+  font-variation-settings:
+    "SOFT" 0,
+    "WONK" 0;
+}
