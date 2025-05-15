@@ -1,0 +1,94 @@
+.timeline {
+    width: 100%;
+    height: 2.5rem;
+    font-family: Montserrat;
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    background: #000;
+    color: #fff;
+
+    .carrousel {
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    gap: 1em;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+
+
+        &::scroll-button(*) {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: var(--button-background);
+            border-radius: 20px;
+            border: 1px solid var(--button-background);
+            color: var(--button-color);
+            cursor: pointer;
+            width: 2rem;
+            height: 2rem;
+
+            &:focus-visible {
+                outline-offset: 5px;
+            }
+
+            &:active {
+                translate: 0 5px;
+            }
+        }
+
+        &::scroll-button(right) {
+            content: "⮕" / "Scroll Right";
+            right: 0;
+        }
+
+        &::scroll-button(left) {
+            content: "⬅" / "Scroll Left";
+            left: 0;
+        }
+
+        li {
+            flex: 0 0 auto;
+            list-style-type: none;
+        }
+
+        li:not(.divider) {
+            scroll-snap-align: center;
+        }
+
+        a {
+            background-color: var(--white);
+            display: inline-block;
+            border-radius: 20px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
+                rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        }
+    }
+
+    .item {
+        display: flex;
+        align-items: center;
+        gap: 0 0.2rem;
+        color: #e2e8f0;
+        font-size: .9rem;
+        background-color: #152c41;
+        padding: 0.7rem 1rem;
+        margin: 0rem 1rem;
+        border-radius: 0.4rem;
+        white-space: nowrap;
+        box-shadow:
+        0 0.1rem 0.2rem #00000033,
+        0 0.1rem 0.5rem #0000004d,
+        0 0.2rem 01.5rem #00000066,
+    }
+}
+
+@keyframes loop {
+    0% {transform: translateX(0%);}
+    100% {transform: translateX(-50%);}
+}
