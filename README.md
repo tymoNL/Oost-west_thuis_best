@@ -65,3 +65,74 @@ Aanwezigen:
 ### Iteratie 3
 
 ### Iteratie 4
+
+## Product biografie
+
+## Week 1
+
+Om duidelijk te krijgen wat de opdracht is zijn we als groep eerst naar Declan gegaan om uitleg te krijgen over hoe we het best de opdracht die we krijgen, aan te pakken.
+Hier hebben we duidelijkheden en voorbeelden gekregen over hoe hij de data en verwerking hiervan zou aanpakken.
+
+We hebben als groep onze sterke en zwakke punten opgeschreven en de leerdoelen zodat we hier aan kunnen werken terwijl we met de opdracht bezig zijn.
+
+### Tymo
+
+In deze week heb ik gekeken wat voor data er is in [Directus](https://directus.io/) (hier is de data opgeslagen). En ik heb gekeken wat we als groep hiermee konden om de website te vullen met content.
+
+De data heb ik op kunnen halen via meerdere endpoints zodat we toegang hebben tot deze data in onze website. De website is opgezet met [Liquid](https://shopify.github.io/liquid/), voornamelijk omdat deze templating taal al gebruikt is met het vak API dus dit is een bekende template voor iedereen in de groep.
+
+### Donna
+
+Hier docs over week 1
+
+### Lilian
+
+Hier docs over week 1
+
+## Week 2
+
+### Tymo
+
+Nadat Lilian het ontwerp van de website concreet had, ben ik begonnen met het namaken van het ontwerp in **liquid**. De eerst gemaakte onderdelen waren de Header, footer. De gemaakte pagina's waren de homepage en over ons pagina.
+
+Op de gedenkmuur pagina heb ik na het voortgangsgesprek met **Victor** een oplossing gevonden voor het opslaan van de bloemen op een gedenkmuur. Dit heb ik kunnen doen door een post request te maken naar een pagina en daar de *rozenaantal* aan te passen. Deze oplossing is niet 100% goed want als je de server opnieuw op zou starten (Wat vaak gebeurd) wordt dit getal weer naar 0 gezet. Dit is gedaan want we hebben geen toegang tot een database waar je deze data normaal op zou slaan.
+
+Het meeste hiervan staat op een andere repository, deze is [hier](https://github.com/tymoNL/Meesterproef_liquid) gelinkt.
+
+Ook heb ik na het 2e gesprek met **Declan** via `Npm` een **QR code generator** geimporteerd. Dit is omdat na het gesprek met de opdrachtgever duidelijk was dat dit een belangerijk onderdeel is zodat mensen makkelijk naar de website en detailpagina van een adress kunnen.
+
+### Donna
+
+Hier docs over week 2
+
+### Lilian
+
+Hier docs over week 2
+
+## Week 3
+
+### Tymo
+
+Hier docs over week 3
+
+### Donna
+
+Hier docs over week 3
+
+### Lilian
+
+Hier docs over week 3
+
+## Week 4
+
+### Tymo
+
+Hier docs over week 4
+
+### Donna
+
+Hier docs over week 4
+
+### Lilian
+
+Hier docs over week 4
