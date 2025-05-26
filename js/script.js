@@ -1,3 +1,21 @@
+/* Mobile header logica */
+const mobileMenuLink = document.querySelector('.mobileMenuLink');
+
+if (mobileMenuLink) {
+  mobileMenuLink.addEventListener("click", function () {
+    document.querySelector('.mobileMenu').classList.toggle('active');
+
+    const icon = this.querySelector('i');
+    if (icon.classList.contains('fa-bars')) {
+      icon.classList.remove('fa-bars');
+      icon.classList.add('fa-xmark');
+    } else {
+      icon.classList.remove('fa-xmark');
+      icon.classList.add('fa-bars');
+    }
+  });
+}
+
 var peopleList = document.querySelector('.people');
 var peopleCount = 933;
 

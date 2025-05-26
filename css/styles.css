@@ -93,14 +93,6 @@ body {
             }
         }
     }
-
-    footer {
-        background-color: hsl(222 36% 80%);
-
-        .footerBottom {
-            text-align: center;
-        }
-    }
 }
 
 .stories {
