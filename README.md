@@ -113,7 +113,41 @@ Hier docs over week 2
 
 ### Tymo
 
-Hier docs over week 3
+In deze week heb ik na gesprek met **Victor** een `Json` bestand gemaakt met de data uit een verhaal van het boek die is aangeleverd.
+Dit is gedaan zodat als de data uit het boek in een volledig Json bestand is gezet, kan de data er direct uitgehaald worden. Ook raadde Victor af om hardcoded content te maken.
+
+#### Een stuk van het Json bestand
+
+```json
+"verhalen": [
+            {
+                "titel": "Jacob Philips",
+                "datum": "8 april 1911 - 4 september 1941",
+                "locatie": "Amsterdam",
+                "afbeelding": "/images/details/foto_man.png",
+                "tekst": "Jacob Philips (foto rechts en trouwfoto hieronder), los werkman, spiegelmaker, marktkoopman en expeditieknecht, Amsterdam, 8 april 1911, Hartheim, 4 september 1941. Jacob was een zoon van los arbeider Nathan Philips en Heintje Philips-Krant, die beiden door de nationaalsocialisten om het leven werden gebracht. Jacob, die uit een groot gezin kwam, groeide op in de oude Jodenbuurt en werd in 1930 goedgekeurd voor militaire dienst. Hij kwam bij de infanterie terecht. In 1939 trouwde Jacob met kantinebeheerster Elisabeth (Bep) van der Haas, van niet-Joodse afkomst. Het stel ging direct na hun huwelijk op dit adres wonen."
+            }
+            ]
+```
+
+De content uit dit verhaal heb ik verwerkt in liquid om meerdere objecten uit Json dynamisch in te laden.
+
+```html
+    <div>
+        {% for tekst in item.verhalen %}
+        <article class="stop" tabindex="0">
+            <div class="text">
+                <header>
+                    <h2>{{ tekst.titel }}</h2>
+                    <time>{{ tekst.date }}</time>
+                </header>
+                <p>{{ tekst.tekst }}</p>
+                <img src="{{ tekst.afbeelding }}" alt="{{ tekst.titel }}" />
+            </div>
+        </article>
+        {% endfor %}
+    </div>
+```
 
 ### Donna
 
